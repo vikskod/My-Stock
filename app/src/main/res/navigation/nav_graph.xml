@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/watchListFragment">
+
+    <fragment
+        android:id="@+id/watchListFragment"
+        android:name="com.vikskod.mystocks.WatchListFragment"
+        android:label="fragment_watch_list"
+        tools:layout="@layout/fragment_watch_list" />
+    <fragment
+        android:id="@+id/stockListFragment"
+        android:name="com.vikskod.mystocks.StockListFragment"
+        android:label="fragment_stock_list"
+        tools:layout="@layout/fragment_stock_list" />
+</navigation>
